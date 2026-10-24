@@ -301,6 +301,28 @@
       border-color: #f87171;
     }
 
+    .other-tabs-badge {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #047857;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .active-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #10b981;
+    }
+
     .footer {
       margin-top: 14px;
       padding-top: 10px;
@@ -381,6 +403,11 @@
     </div>
   </div>
   
+  <div id="otherTabsBadge" class="other-tabs-badge">
+    <span class="active-dot"></span>
+    <span id="otherTabsText">۱ تب دیگر در پس‌زمینه در حال ضبط است</span>
+  </div>
+
   <div id="setupDiv" class="card">
     <div class="control-row">
       <span class="control-label">🎤 ضبط صدای میکروفون من</span>
