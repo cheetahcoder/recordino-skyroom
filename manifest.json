@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Recordino Skyroom",
+  "version": "2.3",
+  "description": "افزونه پیشرفته ضبط کلاس‌های آنلاین و اسکای‌روم با صدای دوطرفه، بدون قطعی صدا و با کیفیت عالی",
+  "permissions": [
+    "activeTab",
+    "tabCapture",
+    "offscreen",
+    "downloads",
+    "storage"
+  ],
+  "commands": {
+    "toggle-recording": {
+      "suggested_key": {
+        "default": "Alt+Shift+R"
+      },
+      "description": "شروع یا توقف ضبط تب"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Recordino Skyroom",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
